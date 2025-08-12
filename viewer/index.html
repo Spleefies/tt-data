@@ -1,75 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUSH Timetable Viewer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUSH Timetable Viewer</title>
+  <style>
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 12px;
+      margin: 10px 0;
+      font-family: Arial, sans-serif;
+    }
+    .time {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .code {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-top: 4px;
+    }
+    .subject {
+      font-size: 1em;
+      color: #333;
+    }
+  </style>
+  
 </head>
 <body>
-    Day: <select id="Day">
-        <option value="mon">Monday</option>
-        <option value="tue">Tuesday</option>
-        <option value="wed">Wednesday</option>
-        <option value="thu">Thursday</option>
-        <option value="fri">Friday</option>
-    </select><br>
-    Class: <select id="Class">
-            <optgroup label="Year 1">
-                <option>101</option>
-                <option>102</option>
-                <option>103</option>
-                <option>104</option>
-                <option>105</option>
-                <option>106</option>
-            </optgroup>
-            <optgroup label="Year 2">
-                <option>201</option>
-                <option>202</option>
-                <option>203</option>
-                <option>204</option>
-                <option>205</option>
-                <option>206</option>
-            </optgroup>
-            <optgroup label="Year 3">
-                <option>301</option>
-                <option>302</option>
-                <option>303</option>
-                <option>304</option>
-                <option>305</option>
-                <option>306</option>
-                <option>307</option>
-            </optgroup>
-            <optgroup label="Year 4">
-                <option>401</option>
-                <option>402</option>
-                <option>403</option>
-                <option>404</option>
-                <option>405</option>
-                <option>406</option>
-                <option>407</option>
-            </optgroup>
-            <optgroup label="Year 5">
-                <option>501</option>
-                <option>502</option>
-                <option>503</option>
-                <option>504</option>
-                <option>505</option>
-                <option>506</option>
-                <option>507</option>
-            </optgroup>
-            <optgroup label="Year 6">
-                <option>601</option>
-                <option>602</option>
-                <option>603</option>
-                <option>604</option>
-                <option>605</option>
-                <option>606</option>
-                <option>607</option>
-            </optgroup>
-        </select>
-    Semester: <select id="Sem">
-    </select>
+  Day: <select id="Day">
+    <option value="mon">Monday</option>
+    <option value="tue">Tuesday</option>
+    <option value="wed">Wednesday</option>
+    <option value="thu">Thursday</option>
+    <option value="fri">Friday</option>
+  </select><br>
+  Year: <select id="Year">
+    <option value="y1">1</option>
+    <option value="y2">2</option>
+    <option value="y3">3</option>
+    <option value="y4">4</option>
+    <option value="y5">5</option>
+    <option value="y6">6</option>
+  </select>
+  Class:<select id = "Class">
+    <option>01</option>
+    <option>02</option>
+    <option>03</option>
+    <option>04</option>
+    <option>05</option>
+    <option>06</option>
+  </select>
+  Semester: <select id="Sem">
+    <option value="s1">1</option>
+    <option value="s2">2</option>
+  </select>
+  <div id="tt"></div>
+  <script>
+    function loadTimetable() {
+      var sem = document.getElementById("Sem").value;
+      var day = document.getElementById("Day").value;
+      var cls = document.getElementById("Class").value;
+      var year = document.getElementById("Year").value;
+      
+      var dataPath = `../2025/${sem}/${year}/${cls}/${day}.json`;
+      
+      fetch(dataPath)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then(data => {
+        var ttDiv = document.getElementById("tt");
+        
+        if (data && typeof data === "object") {
+          ttDiv.innerHTML = ""; // clear old timetable
+          
+          for (const slot in data) {
+            let c = data[slot].courseCode;
+            let t = data[slot].time;
+            let s = data[slot].subject;
+            
+            // Create card HTML
+            let cardHTML = `
+        <div class="card">
+          <div class="time">${t}</div>
+          <div class="code">${c}</div>
+          <div class="subject">${s}</div>
+        </div>
+      `;
+            
+            ttDiv.innerHTML += cardHTML;
+          }
+        } else {
+          ttDiv.innerHTML = "No timetable data available for this selection.";
+        }
+      });
+    }
+    
+    loadTimetable();
+    
+    document.querySelectorAll("#Sem, #Day, #Class, #Year").forEach(select => {
+      select.addEventListener("change", loadTimetable);
+    });
+  </script>
 </body>
-<script>
-</script>
 </html>
