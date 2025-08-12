@@ -79,15 +79,14 @@
         var ttDiv = document.getElementById("tt");
         
         if (data && typeof data === "object") {
-          ttDiv.innerHTML = ""; // clear old timetable
+          ttDiv.innerHTML = "";
           
           for (const slot in data) {
             let c = data[slot].courseCode;
             let t = data[slot].time;
             let s = data[slot].subject;
             
-            // Create card HTML
-            let cardHTML = `
+            let cards = `
         <div class="card">
           <div class="time">${t}</div>
           <div class="code">${c}</div>
@@ -95,7 +94,7 @@
         </div>
       `;
             
-            ttDiv.innerHTML += cardHTML;
+            ttDiv.innerHTML += cards;
           }
         } else {
           ttDiv.innerHTML = "No timetable data available for this selection.";
