@@ -1,42 +1,51 @@
 {
   "s1": {
     "courseCode": "PC1131",
-    "subject":"Physics",
-    "time":"0800-0900"
+    "subject": "Physics",
+    "time": "0800-0900"
   },
   "s2": {
-    "courseCode": ["CH1531","CL1531","TH1531","TL1531"],
-    "subject":"MTL",
-    "time":"0900-1000"
+    "courseCode": [
+      "CH1531",
+      "CL1531",
+      "TH1531",
+      "TL1531"
+    ],
+    "subject": "MTL",
+    "time": "0900-1000"
   },
-    "s3": {
+  "s3": {
     "courseCode": "",
-    "subject":"PE",
-    "time":"1000-1100"
+    "subject": "PE",
+    "time": "1000-1100"
   },
-    "s4": {
+  "s4": {
     "courseCode": "",
-    "subject":"Recess",
-    "time":"1100-1130"
+    "subject": "Recess",
+    "time": "1100-1130"
   },
-    "s5": {
+  "s5": {
     "courseCode": "EL1131",
-    "subject":"English",
-    "time":"1130-1300"
+    "subject": "English",
+    "time": "1130-1300"
   },
-    "s6": {
+  "s6": {
     "courseCode": "",
-    "subject":"Lunch",
-    "time":"1300-1400"
+    "subject": "Lunch",
+    "time": "1300-1400"
   },
-    "s7": {
+  "s7": {
     "courseCode": "HU1131",
-    "subject":"Humanities",
-    "time":"1400-1500"
+    "subject": "Humanities",
+    "time": "1400-1500"
   },
-    "s8": {
-    "courseCode": ["PC1332","CM1331","MA1232"],
-    "subject":"Electives",
-    "time":"1500-1630"
+  "s8": {
+    "courseCode": [
+      "PC1332",
+      "CM1331",
+      "MA1232"
+    ],
+    "subject": "Electives",
+    "time": "1500-1630"
   }
 }

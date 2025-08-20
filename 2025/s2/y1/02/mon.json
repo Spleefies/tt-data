@@ -2,36 +2,36 @@
   "s1": {
     "courseCode": "CS1131",
     "subject": "Computer Science",
-    "time":"0800-1000"
+    "time": "0800-1000"
   },
-  "s2":{
+  "s2": {
     "courseCode": "",
     "subject": "Recess",
-    "time":"1000-1030"
+    "time": "1000-1030"
   },
-  "s3":{
+  "s3": {
     "courseCode": "MA1133",
     "subject": "Math",
-    "time":"1030-1200"
+    "time": "1030-1200"
   },
-  "s4":{
+  "s4": {
     "courseCode": "",
     "subject": "Lunch",
-    "time":"1200-1300"
+    "time": "1200-1300"
   },
-  "s5":{
+  "s5": {
     "courseCode": "DV1132",
     "subject": "Da Vinci",
-    "time":"1300-1500"
+    "time": "1300-1500"
   },
-  "s6":{
+  "s6": {
     "courseCode": "",
     "subject": "CCE",
-    "time":"1500-1600"
+    "time": "1500-1600"
   },
-  "s7":{
+  "s7": {
     "courseCode": "",
     "subject": "CCA",
-    "time":"1600-1800"
+    "time": "1600-1800"
   }
 }

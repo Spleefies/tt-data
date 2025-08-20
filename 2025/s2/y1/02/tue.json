@@ -1,27 +1,32 @@
 {
   "s1": {
-    "courseCode": ["CH1531","CL1531","TH1531","TL1531"],
-    "subject":"MTL",
-    "time":"0800-0900"
+    "courseCode": [
+      "CH1531",
+      "CL1531",
+      "TH1531",
+      "TL1531"
+    ],
+    "subject": "MTL",
+    "time": "0800-0900"
   },
   "s2": {
     "courseCode": "",
-    "subject":"PE",
-    "time":"0900-1000"
+    "subject": "PE",
+    "time": "0900-1000"
   },
   "s3": {
     "courseCode": "",
-    "subject":"Recess",
-    "time":"1000-1030"
+    "subject": "Recess",
+    "time": "1000-1030"
   },
   "s4": {
     "courseCode": "AR1134",
-    "subject":"Art",
-    "time":"1030-1230"
+    "subject": "Art",
+    "time": "1030-1230"
   },
-    "s5": {
+  "s5": {
     "courseCode": "PC1131",
-    "subject":"Physics",
-    "time":"1030-1330"
+    "subject": "Physics",
+    "time": "1030-1330"
   }
 }
