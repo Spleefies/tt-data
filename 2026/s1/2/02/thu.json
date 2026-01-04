@@ -1,0 +1,47 @@
+[
+  {
+    "courseCode": "EL2131",
+    "subject": "English",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["9:00", "9:30"]
+  },
+  {
+    "courseCode": "MA2133",
+    "subject": "Math",
+    "time": ["9:30", "10:30"]
+  },
+  {
+    "courseCode": "HU2131",
+    "subject": "Hum",
+    "time": ["10:30", "11:30"]
+  },
+  {
+    "courseCode": "MT",
+    "subject": "Mt",
+    "time": ["11:30", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:30", "13:30"]
+  },
+  {
+    "courseCode": "CM2131",
+    "subject": "Chem",
+    "time": ["13:30", "15:00"]
+  },
+  {
+    "courseCode": "ELECTIVES",
+    "subject": "Electives",
+    "time": ["15:00", "16:30"]
+  },
+  {
+    "courseCode": "ELECTIVES",
+    "subject": "Electives",
+    "time": ["16:30", "18:00"]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "courseCode": null,
+    "subject": "WH",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": "BL2131",
+    "subject": "Bio",
+    "time": ["9:00", "10:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["10:30", "11:00"]
+  },
+  {
+    "courseCode": "CHAMS",
+    "subject": "Chams",
+    "time": ["11:00", "13:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["13:00", "14:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCE",
+    "time": ["14:00", "15:00"]
+  },
+  {
+    "courseCode": "DV",
+    "subject": "Dv",
+    "time": ["15:00", "17:30"]
+  }
+]

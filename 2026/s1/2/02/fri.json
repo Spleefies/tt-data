@@ -1,0 +1,47 @@
+[
+  {
+    "courseCode": null,
+    "subject": "Mentoring",
+    "time": ["8:00", "8:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "PE",
+    "time": ["8:30", "9:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["9:30", "10:00"]
+  },
+  {
+    "courseCode": "BL2131",
+    "subject": "Bio",
+    "time": ["10:00", "11:30"]
+  },
+  {
+    "courseCode": "MA2133",
+    "subject": "Math",
+    "time": ["11:30", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:30", "13:30"]
+  },
+  {
+    "courseCode": "EL2131",
+    "subject": "English",
+    "time": ["13:30", "14:30"]
+  },
+  {
+    "courseCode": "PC2131",
+    "subject": "Phy",
+    "time": ["14:30", "16:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCA",
+    "time": ["16:00", "18:00"]
+  }
+]
