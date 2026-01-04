@@ -1,0 +1,42 @@
+[
+  {
+    "courseCode": "MA2133",
+    "subject": "Math",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["9:00", "9:30"]
+  },
+  {
+    "courseCode": "BL2131",
+    "subject": "Bio",
+    "time": ["9:30", "11:00"]
+  },
+  {
+    "courseCode": "PC2131",
+    "subject": "Phy",
+    "time": ["11:00", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:30", "13:30"]
+  },
+  {
+    "courseCode": "CM2131",
+    "subject": "Chem",
+    "time": ["13:30", "15:00"]
+  },
+  {
+    "courseCode": "ELECTIVES",
+    "subject": "Electives",
+    "time": ["15:00", "16:30"]
+  },
+  {
+    "courseCode": "ELECTIVES",
+    "subject": "Electives",
+    "time": ["16:30", "18:00"]
+  }
+]

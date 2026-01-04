@@ -1,0 +1,32 @@
+[
+  {
+    "courseCode": "MA2133",
+    "subject": "Math",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["9:00", "9:30"]
+  },
+  {
+    "courseCode": "BL2131",
+    "subject": "Bio",
+    "time": ["9:30", "11:00"]
+  },
+  {
+    "courseCode": "MT",
+    "subject": "MT",
+    "time": ["11:00", "12:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:00", "13:00"]
+  },
+  {
+    "courseCode": "EL2131",
+    "subject": "English",
+    "time": ["13:00", "14:00"]
+  }
+]

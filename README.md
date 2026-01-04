@@ -25,8 +25,6 @@ Course Code | Subject
 
 *CHAMS and DV are only applicable for years 2 and 3.
 
-It is up to the consumer to implement a system for these lessons. (e.g. ask the user what elective they take, and replace `ELECTIVE` with the selected)
-
 Breaks that come directly before or after recess/lunch are considered to be part of the recess/lunch.
 Free periods that come after the last lesson will not be included.
 
