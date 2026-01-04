@@ -20,13 +20,13 @@
       color: #555;
     }
     .code {
+      font-size: 1em;
+      color: #333;
+    }
+    .subject {
       font-size: 1.2em;
       font-weight: bold;
       margin-top: 4px;
-    }
-    .subject {
-      font-size: 1em;
-      color: #333;
     }
   </style>
 </head>
@@ -39,14 +39,14 @@
     <option value="fri">Friday</option>
   </select><br>
   Year: <select id="Year">
-    <option value="y1">1</option>
-    <option value="y2">2</option>
-    <option value="y3">3</option>
-    <option value="y4">4</option>
-    <option value="y5">5</option>
-    <option value="y6">6</option>
+    <option>1</option>
+    <option selected>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
   </select>
-  Class:<select id = "Class">
+  Class:<select id="Class">
     <option>01</option>
     <option selected>02</option>
     <option>03</option>
@@ -56,17 +56,17 @@
   </select>
   Semester: <select id="Sem">
     <option value="s1">1</option>
-    <option value="s2" selected>2</option>
+    <option value="s2">2</option>
   </select>
   <div id="tt"></div>
   <script>
     function loadTimetable() {
-      var sem = document.getElementById("Sem").value;
-      var day = document.getElementById("Day").value;
-      var cls = document.getElementById("Class").value;
-      var year = document.getElementById("Year").value;
+      let sem = document.getElementById("Sem").value;
+      let day = document.getElementById("Day").value;
+      let cls = document.getElementById("Class").value;
+      let year = document.getElementById("Year").value;
       
-      var dataPath = `../2025/${sem}/${year}/${cls}/${day}.json`;
+      let dataPath = `../2026/${sem}/${year}/${cls}/${day}.json`;
       
       fetch(dataPath)
       .then(response => {
@@ -76,21 +76,22 @@
         return response.json();
       })
       .then(data => {
-        var ttDiv = document.getElementById("tt");
+        console.log(data)
+        const ttDiv = document.getElementById("tt");
         
         if (data && typeof data === "object") {
-          ttDiv.innerHTML = "";
+          ttDiv.innerHTML = '';
           
           for (const slot in data) {
             let c = data[slot].courseCode;
-            let t = data[slot].time;
+            let t = data[slot].time[0]+'-'+data[slot].time[1];
             let s = data[slot].subject;
             
             let cards = `
         <div class="card">
-          <div class="time">${t}</div>
-          <div class="code">${c}</div>
           <div class="subject">${s}</div>
+          <div class="code">${c ?? ''}</div>
+          <div class="time">${t}</div>
         </div>
       `;
             

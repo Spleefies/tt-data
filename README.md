@@ -19,9 +19,9 @@ For periods where students in the same class are taking different lessons (such 
 Course Code | Subject
  :--------: | :-----:
  ELECTIVE | Elective
- MT | Mt
- CHAMS | Chams
- DV | Dv |
+ MT | MT
+ CHAMS | CHAMS
+ DV | Da Vinci |
 
 *CHAMS and DV are only applicable for years 2 and 3.
 
