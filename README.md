@@ -2,7 +2,7 @@
 Collection of NUSH Timetables in JSON.
 
 ## Structure
-The directories are in order of `year/sem/level/class/day`. For example, the timetable on Monday for class 202 in Semester 1 of 2026 would be in `2026/s1/2/02/mon.json`.
+The directories are in order of `year/sem/level/class/day.json`. For example, the timetable on Monday for class 202 in Semester 1 of 2026 would be in `2026/s1/2/02/mon.json`.
 ### JSON structure
 The JSON file is an array of objects. for each object, there are 3 properties:
 
@@ -16,16 +16,16 @@ A table of subject names is given below.
 ### Notes
 For periods where students in the same class are taking different lessons (such as electives or Mother Tongue), the course code and subject is used, according to this table.
 
+A list of the different courses is in `year/sem/level`.
 
 Course Code | Subject
  :--------: | :-----:
  ELECTIVE | Elective
  MT | Mother Tongue
- CHAMS | CHAMS
- DV | Da Vinci |
+ HAMS | HAMS
+ DV | Da Vinci
 
-*CHAMS and DV are only applicable for years 2 and 3.
-A list of electives is given in `electives.json`.
+*HAMS and DV are only applicable for years 2 and 3.
 
 Breaks that come directly before or after recess/lunch are considered to be part of the recess/lunch.
 Free periods that come after the last lesson will not be included.

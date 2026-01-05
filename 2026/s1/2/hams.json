@@ -1,0 +1,22 @@
+[
+  {
+    "courseCode": "GE2131",
+    "subject": "Geog"
+  },
+  {
+    "courseCode": "HY2131",
+    "subject": "Hist"
+  },
+  {
+    "courseCode": "EN2131",
+    "subject": "Eng Lit"
+  },
+  {
+    "courseCode": "MU2134",
+    "subject": "Music"
+  },
+  {
+    "courseCode": "AR2134",
+    "subject": "Art"
+  }
+]
