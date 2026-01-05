@@ -16,6 +16,7 @@ A table of subject names is given below.
 ### Notes
 For periods where students in the same class are taking different lessons (such as electives or Mother Tongue), the course code and subject is used, according to this table.
 
+
 Course Code | Subject
  :--------: | :-----:
  ELECTIVE | Elective
@@ -24,6 +25,7 @@ Course Code | Subject
  DV | Da Vinci |
 
 *CHAMS and DV are only applicable for years 2 and 3.
+A list of electives is given in `electives.json`.
 
 Breaks that come directly before or after recess/lunch are considered to be part of the recess/lunch.
 Free periods that come after the last lesson will not be included.
