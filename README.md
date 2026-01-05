@@ -19,7 +19,7 @@ For periods where students in the same class are taking different lessons (such 
 Course Code | Subject
  :--------: | :-----:
  ELECTIVE | Elective
- MT | MT
+ MT | Mother Tongue
  CHAMS | CHAMS
  DV | Da Vinci |
 
