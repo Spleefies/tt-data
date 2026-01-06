@@ -1,1 +1,22 @@
-["electives","hams","mt","dv"]
+[
+  {
+    "subject": "1st Elective",
+    "file": "elective1"
+  },
+  {
+    "subject": "2nd Elective",
+    "file": "elective2"
+  },
+  {
+    "subject": "HAMs",
+    "file": "hams"
+  },
+  {
+    "subject": "Mother Tongue",
+    "file": "mt"
+  },
+  {
+    "subject": "Da Vinci",
+    "file": "dv"
+  }
+]

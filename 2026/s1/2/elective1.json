@@ -1,0 +1,18 @@
+[
+  {
+    "courseCode": "CS2231",
+    "subject": "Computer Science"
+  },
+  {
+    "courseCode": "MA2231V",
+    "subject": "Math Olympiad"
+  },
+  {
+    "courseCode": "PC2333",
+    "subject": "Astronomy"
+  },
+  {
+    "courseCode": "CM2331",
+    "subject": "Chem Pot"
+  }
+]
