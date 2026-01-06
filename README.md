@@ -22,7 +22,7 @@ Course Code | Subject
  :--------: | :-----:
  ELECTIVE | Elective
  MT | Mother Tongue
- HAMS | HAMS
+ HAMS | HAMs
  DV | Da Vinci
 
 *HAMS and DV are only applicable for years 2 and 3.
@@ -32,7 +32,7 @@ Free periods that come after the last lesson will not be included.
 
 **Subject Names**
 
-(Only includes subject names that are not the one found in [the POS](https://nush.link/pos))
+(Only includes subject names that are not the one found in [the POS](https://nush.link/pos))\
 (Note that the subject name can be the same as the course code)
 
 Course Code | Subject
@@ -40,7 +40,6 @@ Course Code | Subject
 BL | Bio
 CE | CCE
 CM | Chem
-CS | CS
 EC | Econ
 EL | English
 EN | Eng Lit

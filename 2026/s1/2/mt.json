@@ -14,5 +14,13 @@
   {
     "courseCode": "TL2531",
     "subject": "Tamil"
+  },
+  {
+    "courseCode": "MH2531",
+    "subject": "Higher Malay"
+  },
+  {
+    "courseCode": "ML2531",
+    "subject": "Malay"
   }
 ]
