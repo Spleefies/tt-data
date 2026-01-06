@@ -16,7 +16,7 @@ A table of subject names is given below.
 ### Notes
 For periods where students in the same class are taking different lessons (such as electives or Mother Tongue), the course code and subject is used, according to this table.
 
-A list of the different courses is in `year/sem/level`.
+A list of the different courses is in `year/sem/level/variables.json`.
 
 Course Code | Subject
  :--------: | :-----:
