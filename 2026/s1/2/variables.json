@@ -1,6 +1,7 @@
 [
   {
     "subject": "1st Elective",
+    "id": "elective1",
     "choices": [
       {
         "courseCode": "CS2231",
@@ -26,6 +27,7 @@
   },
   {
     "subject": "2nd Elective",
+    "id": "elective2",
     "choices": [
       {
         "courseCode": "PC2331",
@@ -51,6 +53,7 @@
   },
   {
     "subject": "HAMs",
+    "id": "hams",
     "choices": [
       {
         "courseCode": "GE2131",
@@ -76,6 +79,7 @@
   },
   {
     "subject": "Mother Tongue",
+    "id": "mt",
     "choices": [
       {
         "courseCode": "CH2531",
@@ -105,6 +109,7 @@
   },
   {
     "subject": "Da Vinci",
+    "id": "dv",
     "choices": [
       {
         "courseCode": "DV2134",
