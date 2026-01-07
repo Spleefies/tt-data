@@ -53,7 +53,7 @@
   },
   {
     "subject": "HAMs",
-    "id": "hams",
+    "id": "HAMS",
     "choices": [
       {
         "courseCode": "GE2131",
@@ -79,7 +79,7 @@
   },
   {
     "subject": "Mother Tongue",
-    "id": "mt",
+    "id": "MT",
     "choices": [
       {
         "courseCode": "CH2531",
@@ -109,7 +109,7 @@
   },
   {
     "subject": "Da Vinci",
-    "id": "dv",
+    "id": "DV",
     "choices": [
       {
         "courseCode": "DV2134",
