@@ -18,10 +18,6 @@
       {
         "courseCode": "CM2331",
         "subject": "Chem Pot"
-      },
-      {
-        "courseCode": null,
-        "subject": "none"
       }
     ]
   },
@@ -44,10 +40,6 @@
       {
         "courseCode": "MA2231V",
         "subject": "Math Oly V"
-      },
-      {
-        "courseCode": null,
-        "subject": "none"
       }
     ]
   },
