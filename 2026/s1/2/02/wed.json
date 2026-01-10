@@ -10,7 +10,7 @@
     "time": ["10:30", "11:00"]
   },
   {
-    "courseCode": "HAMS",
+    "courseCode": null,
     "subject": "HAMs",
     "time": ["11:00", "13:00"]
   },
@@ -25,7 +25,7 @@
     "time": ["14:00", "15:00"]
   },
   {
-    "courseCode": "DV",
+    "courseCode": null,
     "subject": "Da Vinci",
     "time": ["15:00", "17:30"]
   }

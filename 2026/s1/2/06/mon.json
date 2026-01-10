@@ -25,7 +25,7 @@
     "time": ["12:30", "13:00"]
   },
   {
-    "courseCode": "MT",
+    "courseCode": null,
     "subject": "Mother Tongue",
     "time": ["13:00", "14:00"]
   },

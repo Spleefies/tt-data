@@ -20,7 +20,7 @@
     "time": ["10:30", "11:30"]
   },
   {
-    "courseCode": "MT",
+    "courseCode": null,
     "subject": "Mother Tongue",
     "time": ["11:30", "12:30"]
   },
@@ -35,12 +35,12 @@
     "time": ["13:30", "15:00"]
   },
   {
-    "courseCode": "ELECTIVES",
+    "courseCode": null,
     "subject": "Electives",
     "time": ["15:00", "16:30"]
   },
   {
-    "courseCode": "ELECTIVES",
+    "courseCode": null,
     "subject": "Electives",
     "time": ["16:30", "18:00"]
   }

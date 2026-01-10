@@ -30,12 +30,12 @@
     "time": ["13:30", "15:00"]
   },
   {
-    "courseCode": "ELECTIVES",
+    "courseCode": null,
     "subject": "Electives",
     "time": ["15:00", "16:30"]
   },
   {
-    "courseCode": "ELECTIVES",
+    "courseCode": null,
     "subject": "Electives",
     "time": ["16:30", "18:00"]
   }
