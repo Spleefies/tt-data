@@ -1,0 +1,42 @@
+[
+  {
+    "courseCode": null,
+    "subject": "Mentoring",
+    "time": ["8:00", "8:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["8:30", "9:00"]
+  },
+  {
+    "courseCode": "CM1131",
+    "subject": "Chem",
+    "time": ["9:00", "11:00"]
+  },
+  {
+    "courseCode": "MA2133",
+    "subject": "Math",
+    "time": ["11:00", "12:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:00", "13:00"]
+  },
+  {
+    "courseCode": "CS1131",
+    "subject": "Computer Science",
+    "time": ["13:00", "15:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCE",
+    "time": ["15:00", "16:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCA",
+    "time": ["16:00", "18:00"]
+  }
+]

@@ -116,5 +116,20 @@
         "subject": "DV Math Research"
       }
     ]
+  },
+  {
+    "subject": "Math",
+    "id": "math",
+    "class": ["01","06"],
+    "choices": [
+      {
+        "courseCode": "MA2133",
+        "subject": "Math"
+      },
+      {
+        "courseCode": "MA2133",
+        "subject": "Math"
+      }
+    ]
   }
 ]

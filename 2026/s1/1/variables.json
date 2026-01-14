@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "choices": [
+      {
+        "courseCode": "CH1531",
+        "subject": "Higher Chinese"
+      },
+      {
+        "courseCode": "CL1531",
+        "subject": "Chinese"
+      },
+      {
+        "courseCode": "TH1531",
+        "subject": "Higher Tamil"
+      },
+      {
+        "courseCode": "TL1531",
+        "subject": "Tamil"
+      },
+      {
+        "courseCode": "MH1531",
+        "subject": "Higher Malay"
+      },
+      {
+        "courseCode": "ML1531",
+        "subject": "Malay"
+      }
+    ]
+  }
+]
