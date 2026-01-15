@@ -43,5 +43,41 @@
         "subject": "Math"
       }
     ]
+  },
+  {
+    "subject": "1st Elective",
+    "id": "elective1",
+    "choices": [
+      {
+        "courseCode": "MA1231",
+        "subject": "Math Oly"
+      },
+      {
+        "courseCode": "PC1331",
+        "subject": "Robotics"
+      },
+      {
+        "courseCode": "CM1331",
+        "subject": "Chem Pot"
+      }
+    ]
+  },
+  {
+    "subject": "2st Elective",
+    "id": "elective2",
+    "choices": [
+      {
+        "courseCode": "MA1231",
+        "subject": "Math Oly"
+      },
+      {
+        "courseCode": "PC1331",
+        "subject": "Robotics"
+      },
+      {
+        "courseCode": "CM1331",
+        "subject": "Chem Pot"
+      }
+    ]
   }
 ]

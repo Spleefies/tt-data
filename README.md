@@ -14,7 +14,8 @@ A table of subject names is given below.
 `time`: An array with 2 strings: the start and end times of the lesson, in 24hr time. 
 
 ### Notes
-For periods where students in the same class are taking different lessons (such as electives or Mother Tongue), the course code is `null`, and there will be an `id` property. 
+For periods where students in the same class are taking different lessons (such as electives or Mother Tongue), the course code is `null`, and there will be an `id` property.\
+*For accelerated courses, the non-accelerated course code is used.
 
 A list of the different courses is in `year/sem/level/variables.json`.
 
@@ -35,7 +36,6 @@ EC | Econ
 EL | English
 EN | Eng Lit
 GE | Geog
-HY | Hist
 HU | Hum
 MA | Math
 PE | PE
