@@ -1,0 +1,32 @@
+[
+  {
+    "courseCode": "AR1134",
+    "subject": "Art",
+    "time": ["9:00", "10:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "PE",
+    "time": ["10:00", "11:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["11:00", "11:30"]
+  },
+  {
+    "courseCode": "PC1131",
+    "subject": "Physics",
+    "time": ["11:30", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:30", "14:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCE",
+    "time": ["14:00", "15:00"]
+  }
+]

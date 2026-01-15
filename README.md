@@ -38,7 +38,6 @@ GE | Geog
 HY | Hist
 HU | Hum
 MA | Math
-PC | Phy
 PE | PE
 
 ## Contributing

@@ -1,0 +1,45 @@
+[
+  {
+    "courseCode": "MA1133",
+    "subject": "Math",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "time": ["9:00", "10:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["10:00", "10:30"]
+  },
+  {
+    "courseCode": "AR1134",
+    "subject": "Math",
+    "time": ["10:30", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:30", "13:30"]
+  },
+  {
+    "courseCode": "EL1131",
+    "subject": "English",
+    "time": ["13:30", "15:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Electives",
+    "id": "elective1",
+    "time": ["15:00", "16:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Electives",
+    "id": "elective2",
+    "time": ["16:30", "18:00"]
+  }
+]
