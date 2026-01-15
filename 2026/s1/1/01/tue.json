@@ -1,0 +1,34 @@
+[
+  {
+    "courseCode": "AR1134",
+    "subject": "Art",
+    "time": ["8:00", "10:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["10:00", "10:30"]
+  },
+  {
+    "courseCode": "PC1131",
+    "subject": "Physics",
+    "time": ["10:30", "11:30"]
+  },
+  {
+    "courseCode": "MA1133",
+    "subject": "Math",
+    "id": "math",
+    "time": ["11:30", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Break",
+    "time": ["12:30", "1300"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "time": ["13:00", "14:00"]
+  }
+]

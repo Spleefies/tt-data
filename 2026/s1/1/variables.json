@@ -28,5 +28,20 @@
         "subject": "Malay"
       }
     ]
+  },
+  {
+    "subject": "Math",
+    "id": "math",
+    "class": ["01","06"],
+    "choices": [
+      {
+        "courseCode": "MA1133",
+        "subject": "Math"
+      },
+      {
+        "courseCode": "MA2133",
+        "subject": "Math"
+      }
+    ]
   }
 ]
