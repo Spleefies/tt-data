@@ -1,0 +1,43 @@
+[  
+  {
+    "courseCode": null,
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "time": ["9:00", "10:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "PE",
+    "time": ["10:00", "11:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["11:00", "11:30"]
+  },
+  {
+    "courseCode": "EL1131",
+    "subject": "English",
+    "time": ["11:30", "13:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["13:00", "14:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCE",
+    "time": ["14:00", "15:00"]
+  },
+  {
+    "courseCode": "MA1133",
+    "subject": "Math",
+    "time": ["15:00", "16:00"]
+  },
+  {
+    "courseCode": "AR1134",
+    "subject": "Art",
+    "time": ["16:00", "17:00"]
+  }
+]

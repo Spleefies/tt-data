@@ -1,0 +1,50 @@
+[
+  {
+    "courseCode": null,
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": "CS1141",
+    "subject": "Computer Science",
+    "time": ["9:00", "11:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["11:00", "11:30"]
+  },
+  {
+    "courseCode": "PC1131",
+    "subject": "Physics",
+    "time": ["11:30", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:30", "13:30"]
+  },
+  {
+    "courseCode": "HU1131",
+    "subject": "Hum",
+    "time": ["13:30", "14:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Break",
+    "time": ["14:30", "15:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Electives",
+    "id": "elective1",
+    "time": ["15:00", "16:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Electives",
+    "id": "elective2",
+    "time": ["16:30", "18:00"]
+  }
+]

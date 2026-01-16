@@ -30,21 +30,6 @@
     ]
   },
   {
-    "subject": "Math",
-    "id": "math",
-    "class": ["01","06"],
-    "choices": [
-      {
-        "courseCode": "MA1133",
-        "subject": "Math"
-      },
-      {
-        "courseCode": "MA2133",
-        "subject": "Math"
-      }
-    ]
-  },
-  {
     "subject": "1st Elective",
     "id": "elective1",
     "choices": [
@@ -77,6 +62,21 @@
       {
         "courseCode": "CM1331",
         "subject": "Chem Pot"
+      }
+    ]
+  },
+  {
+    "subject": "Math",
+    "id": "math",
+    "class": ["01","06"],
+    "choices": [
+      {
+        "courseCode": "MA1133",
+        "subject": "Math"
+      },
+      {
+        "courseCode": "MA2133",
+        "subject": "Math"
       }
     ]
   }
