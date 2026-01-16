@@ -1,0 +1,28 @@
+[
+  {
+    "courseCode": "MA1133",
+    "subject": "Math",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "time": ["9:00", "10:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["10:00", "10:30"]
+  },
+  {
+    "courseCode": "CM1131",
+    "subject": "Chem",
+    "time": ["10:30", "12:30"]
+  },
+  {
+    "courseCode": "PC1131",
+    "subject": "Physics",
+    "time": ["12:30", "13:30"]
+  }
+]
