@@ -22,7 +22,7 @@ A list of the different courses is in `year/sem/level/variables.json`.
 Breaks that come directly before or after recess/lunch are considered to be part of the recess/lunch.
 Free periods that come after the last lesson will not be included.
 
-**Subject Names**
+### Subject Names
 
 (Only includes subject names that are not the one found in [the POS](https://nush.link/pos))\
 (Note that the subject name can be the same as the course code)
