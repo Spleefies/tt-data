@@ -1,0 +1,43 @@
+[
+  {
+    "courseCode": null,
+    "subject": "Mentoring",
+    "time": ["8:00", "8:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "PE",
+    "time": ["8:30", "9:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["9:30", "10:00"]
+  },
+  {
+    "courseCode": "CM2131",
+    "subject": "Chem",
+    "time": ["10:00", "11:30"]
+  },
+  {
+    "courseCode": "PC2131",
+    "subject": "Physics",
+    "time": ["11:30", "13:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["13:00", "15:00"]
+  },
+  {
+    "courseCode": "MA2133",
+    "subject": "Math",
+    "id": "math",
+    "time": ["15:00", "16:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCA",
+    "time": ["16:00", "18:00"]
+  }
+]
