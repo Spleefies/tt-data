@@ -1,0 +1,34 @@
+[
+  {
+    "courseCode": "BL2131",
+    "subject": "Biology",
+    "time": ["9:00", "10:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["10:30", "11:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "HAMs",
+    "id": "hams",
+    "time": ["11:00", "13:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["13:00", "14:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCE",
+    "time": ["14:00", "15:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Da Vinci",
+    "id": "dv",
+    "time": ["15:00", "17:30"]
+  }
+]

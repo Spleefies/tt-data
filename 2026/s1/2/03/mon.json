@@ -1,0 +1,48 @@
+[
+  {
+    "courseCode": "MA2133",
+    "subject": "Math",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "PE",
+    "time": ["9:00", "10:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["10:00", "10:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "time": ["10:30", "11:30"]
+  },
+  {
+    "courseCode": "EL2131",
+    "subject": "English",
+    "time": ["11:30", "12:30"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:30", "13:30"]
+  },
+  {
+    "courseCode": "CM2131",
+    "subject": "Chem",
+    "time": ["13:30", "15:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCE",
+    "time": ["15:00", "16:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCA",
+    "time": ["16:00", "18:00"]
+  }
+]
