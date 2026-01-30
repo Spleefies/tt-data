@@ -5,7 +5,7 @@
     "time": ["8:00", "8:30"]
   },
   {
-    "courseCode": "PC1131",
+    "courseCode": "PC1141",
     "subject": "Physics",
     "time": ["8:30", "9:30"]
   },
@@ -20,7 +20,7 @@
     "time": ["10:30", "11:00"]
   },
   {
-    "courseCode": "HU1131",
+    "courseCode": "HU1141",
     "subject": "Hum",
     "time": ["11:00", "12:00"]
   },

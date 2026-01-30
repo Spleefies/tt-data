@@ -16,7 +16,7 @@
     "time": ["11:00", "11:30"]
   },
   {
-    "courseCode": "PC1131",
+    "courseCode": "PC1141",
     "subject": "Physics",
     "time": ["11:30", "12:30"]
   },
@@ -26,7 +26,7 @@
     "time": ["12:30", "13:30"]
   },
   {
-    "courseCode": "HU1131",
+    "courseCode": "HU1141",
     "subject": "Hum",
     "time": ["13:30", "14:30"]
   },

@@ -1,6 +1,6 @@
 [
   {
-    "courseCode": "HU1131",
+    "courseCode": "HU1141",
     "subject": "Hum",
     "time": ["8:00", "9:00"]
   },
@@ -15,7 +15,7 @@
     "time": ["9:30", "11:00"]
   },
   {
-    "courseCode": "BL1131",
+    "courseCode": "BL1141",
     "subject": "Biology",
     "time": ["11:00", "13:00"]
   },
