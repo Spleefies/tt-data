@@ -38,13 +38,13 @@
   },
   {
     "courseCode": null,
-    "subject": "Electives",
+    "subject": "Elective",
     "id": "elective1",
     "time": ["15:00", "16:30"]
   },
   {
     "courseCode": null,
-    "subject": "Electives",
+    "subject": "Elective",
     "id": "elective2",
     "time": ["16:30", "18:00"]
   }
