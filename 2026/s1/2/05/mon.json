@@ -1,0 +1,48 @@
+[
+  {
+    "courseCode": "HU2131",
+    "subject": "Hum",
+    "time": ["8:00", "9:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "PE",
+    "time": ["9:00", "10:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Recess",
+    "time": ["10:00", "10:30"]
+  },
+  {
+    "courseCode": "BL2131",
+    "subject": "Biology",
+    "time": ["10:30", "12:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Lunch",
+    "time": ["12:00", "13:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "Mother Tongue",
+    "id": "mt",
+    "time": ["13:00", "14:00"]
+  },
+  {
+    "courseCode": "EL2131",
+    "subject": "English",
+    "time": ["14:00", "15:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCE",
+    "time": ["15:00", "16:00"]
+  },
+  {
+    "courseCode": null,
+    "subject": "CCA",
+    "time": ["16:00", "18:00"]
+  }
+]
